@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wireless Midi Controller</string>
+    <string name="title1">wireless</string>
+    <string name="title2">midi controller</string>
+    <string name="author">nikodem dybiński 2016</string>
+    <string name="title_activity_controllers">controllers</string>
+    <string name="swipe">swipe</string>
+    <string name="paramsPrompt">choose parameter</string>
+    <string-array name="params">
+        <item>modulation</item>
+        <item>volume</item>
+        <item>pan</item>
+        <item>cutoff</item>
+        <item>resonance</item>
+        <item>portamento</item>
+        <item>reverb</item>
+        <item>attack</item>
+        <item>decay</item>
+        <item>sustain</item>
+        <item>release</item>
+    </string-array>
+    <string name="line1">wireless midi controller</string>
+    <string name="line2">v.1.0</string>
+    <string name="line3">written by nikodem dybiński</string>
+    <string name="line4">cracow, 16 VI 2016</string>
+
+</resources>

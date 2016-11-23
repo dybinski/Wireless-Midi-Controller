@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@color/colorBackground">
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresBar1"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="127"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_above="@+id/progresBar2"
+        android:layout_marginBottom="30dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresBar2"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="47"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_above="@+id/progresBar3"
+        android:layout_marginBottom="30dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresBar3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="63"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresBar4"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="0"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/progresBar3" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progresBar5"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="83"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/progresBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cutoff"
+        android:id="@+id/titleText1"
+        android:layout_toLeftOf="@+id/progresBar1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/progresBar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="release"
+        android:id="@+id/titleText2"
+        android:layout_toLeftOf="@+id/progresBar2"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/progresBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="modulation"
+        android:id="@+id/titleText3"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/progresBar3"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reverb"
+        android:id="@+id/titleText4"
+        android:layout_toLeftOf="@+id/progresBar4"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/progresBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volume"
+        android:id="@+id/titleText5"
+        android:layout_toLeftOf="@+id/progresBar5"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/progresBar5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="127"
+        android:id="@+id/statusText1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/progresBar1"
+        android:layout_alignTop="@+id/progresBar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="47"
+        android:id="@+id/statusText2"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/progresBar2"
+        android:layout_alignTop="@+id/progresBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="96"
+        android:id="@+id/statusText3"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/progresBar3"
+        android:layout_alignTop="@+id/progresBar3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/statusText4"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/progresBar4"
+        android:layout_alignTop="@+id/progresBar4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="83"
+        android:id="@+id/statusText5"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/progresBar5"
+        android:layout_alignTop="@+id/progresBar5" />
+
+
+</RelativeLayout>

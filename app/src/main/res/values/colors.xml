@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d8707c</color>
+    <color name="colorPrimaryDark">#9f5b72</color>
+    <color name="colorPrimaryDarker">#5c3341</color>
+    <color name="colorAccent">#fda85a</color>
+    <color name="colorAccent2">#379a95</color>
+    <color name="colorBackgroungLight">#30303a</color>
+    <color name="colorBackground">#191824</color>
+
+    <color name="keyWhite">#191824</color>
+    <color name="keyWhitePressed">#d8707c</color>
+    <color name="keyBlack">#30303a</color>
+    <color name="keyBlackPressed">#379a95</color>
+</resources>

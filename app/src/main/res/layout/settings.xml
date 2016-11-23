@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsBar1"
+        android:layout_centerHorizontal="true"
+        android:max="127"
+        android:progress="0"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_above="@+id/settingsBar2"
+        android:layout_marginBottom="50dp"
+        android:theme="@style/AppTheme2" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsBar2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:max="16"
+        android:progress="0"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:theme="@style/AppTheme2" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settingsBar3"
+        android:layout_centerHorizontal="true"
+        android:max="4"
+        android:progress="2"
+        android:maxWidth="300dp"
+        android:minWidth="300dp"
+        android:focusable="false"
+        android:indeterminate="false"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/settingsBar2"
+        android:theme="@style/AppTheme2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="program"
+        android:id="@+id/settingsText1"
+        android:layout_toLeftOf="@+id/settingsBar1"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/settingsBar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="midi channel"
+        android:id="@+id/settingsText2"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/settingsBar2"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="octave"
+        android:id="@+id/settingsText3"
+        android:layout_toLeftOf="@+id/settingsBar3"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignTop="@+id/settingsBar3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/settingsStatus1"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/settingsBar1"
+        android:layout_alignTop="@+id/settingsBar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/settingsStatus2"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/settingsBar2"
+        android:layout_alignTop="@+id/settingsBar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/settingsStatus3"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/settingsBar3"
+        android:layout_alignTop="@+id/settingsBar3" />
+
+
+</RelativeLayout>

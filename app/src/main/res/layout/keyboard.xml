@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackgroungLight"
+    android:columnCount="14"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/cKey"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/keyWhite"
+            android:layout_alignParentTop="true"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/dKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/cKey"
+            android:layout_marginLeft="4dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/eKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/dKey" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/fKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/eKey" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/gKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/fKey" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/aKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/gKey" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/hKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="68dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/aKey" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ccKey"
+            android:background="@color/keyWhite"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="66dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/hKey" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/nextKey"
+            android:background="@color/colorBackground"
+            android:maxWidth="63dp"
+            android:minWidth="63dp"
+            android:width="66dp"
+            android:clickable="false"
+            android:layout_marginLeft="4dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/ccKey"
+            android:text="swipe"
+            android:textColor="@color/colorBackgroungLight" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cisKey"
+            android:width="30dp"
+            android:height="230dp"
+            android:maxHeight="200dp"
+            android:maxWidth="30dp"
+            android:minWidth="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignLeft="@+id/cKey"
+            android:layout_marginLeft="46dp"
+            android:background="@color/keyBlack"
+            android:clickable="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/disKey"
+            android:width="30dp"
+            android:height="230dp"
+            android:maxHeight="200dp"
+            android:maxWidth="30dp"
+            android:minWidth="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignLeft="@+id/dKey"
+            android:layout_marginLeft="46dp"
+            android:background="@color/keyBlack"
+            android:clickable="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fisKey"
+            android:width="30dp"
+            android:height="230dp"
+            android:maxHeight="200dp"
+            android:maxWidth="30dp"
+            android:minWidth="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignLeft="@+id/fKey"
+            android:layout_marginLeft="46dp"
+            android:background="@color/keyBlack"
+            android:clickable="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gisKey"
+            android:width="30dp"
+            android:height="230dp"
+            android:maxHeight="200dp"
+            android:maxWidth="30dp"
+            android:minWidth="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignLeft="@+id/gKey"
+            android:layout_marginLeft="46dp"
+            android:background="@color/keyBlack"
+            android:clickable="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aisKey"
+            android:width="30dp"
+            android:height="230dp"
+            android:maxHeight="200dp"
+            android:maxWidth="30dp"
+            android:minWidth="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignLeft="@+id/aKey"
+            android:layout_marginLeft="46dp"
+            android:background="@color/keyBlack"
+            android:clickable="false" />
+    </RelativeLayout>
+</RelativeLayout>
